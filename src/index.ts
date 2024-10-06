@@ -6,7 +6,7 @@ export type UseDepsChangeProps = Record<string, any>
  * A hook for logging the changes of the dependencies. (development only)
  *
  * This hook won't do anything in the production environment.
- * However, it is recommended to remove this hook in the final code.
+ * However, it is recommended to remove this hook from the final code.
  */
 export const useDepsChange = (depsObject?: UseDepsChangeProps) => {
   if (process.env.NODE_ENV === "production") {
