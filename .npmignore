@@ -8,6 +8,5 @@ src/
 .prettierrc
 eslint.config.js
 tsconfig.json
-image.png
 tsup.config.ts
 
